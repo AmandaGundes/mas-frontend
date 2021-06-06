@@ -39,6 +39,18 @@ export const Content = styled.div`
         margin-left: 10px;
       }
 
+      & + :last-child {
+        color: #fff;
+        background: transparent;
+      }
     }
   }  
+`;
+
+export const ButtonOut = styled.button`
+  position: relative;
+  margin-top: 1rem;
+  color: #fff;
+  background: transparent;
+  border: 0;
 `;
