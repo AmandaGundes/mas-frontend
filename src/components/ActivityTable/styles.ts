@@ -24,8 +24,6 @@ export const Container = styled.div`
       &:first-child {
         color: var(--text-title);
       }
-
     }
   }    
-
 `;
